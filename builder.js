@@ -25,7 +25,7 @@ const serverParams = {
  */
 const buildParams = {
   color: true,
-  entryPoints: ['src/index.tsx'],
+  entryPoints: ['src/index.jsx'],
   loader: { '.js': 'jsx' },
   outdir: 'public',
   minify: true,
