@@ -13,13 +13,15 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'import/extensions': [
       'error',
       'always',
       {
         js: 'never',
-        jsx: 'never'
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never'
       }
     ],
     'no-console': 0,
