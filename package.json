@@ -16,19 +16,19 @@
   },
   "devDependencies": {
     "chokidar": "^3.5.2",
-    "esbuild": "^0.12.9",
-    "eslint": "^7.29.0",
+    "esbuild": "^0.12.22",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.24.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
     "live-server": "^1.2.1",
-    "prettier": "^2.3.1"
+    "prettier": "^2.3.2"
   },
   "lint-staged": {
     "*.+(js|jsx)": "eslint --fix",
