@@ -38,7 +38,7 @@ const buildParams = {
 ;(async () => {
   const builder = await build(buildParams)
 
-  watch('src/**/*.{js,jsx}').on('all', () => {
+  watch('src/**/*', { ignoreInitial: true }).on('all', () => {
     builder.rebuild()
   })
 
