@@ -9,7 +9,7 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --max-warnings=0",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "start": "node builder.mjs --watch",
-    "build": "NODE_ENV=production node builder.mjs"
+    "build": "node builder.mjs"
   },
   "dependencies": {
     "react": "^18.2.0",
